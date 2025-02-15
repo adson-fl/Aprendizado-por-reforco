@@ -1,0 +1,34 @@
+# Ignorar arquivos de cache do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas e arquivos do Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+
+# Ignorar arquivos de logs e temporários
+*.log
+*.tmp
+
+# Ignorar arquivos de ambiente virtual
+venv/
+.env
+*.env
+
+# Ignorar datasets e arquivos CSV grandes
+dataset.csv
+data/
+*.csv
+*.xlsx
+
+# Ignorar arquivos gerados por Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar arquivos do Plotly (caso sejam gerados automaticamente)
+plotly_temp/
+
+# Ignorar arquivos do VSCode/.idea
+.vscode/
+.idea/
