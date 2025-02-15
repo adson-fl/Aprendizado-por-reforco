@@ -23,6 +23,7 @@ data/
 *.csv
 *.xlsx
 
+
 # Ignorar arquivos gerados por Jupyter Notebook
 .ipynb_checkpoints/
 
